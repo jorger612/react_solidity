@@ -9,6 +9,8 @@ import { Producto } from './componentes/productos'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { Balance } from './componentes/Balance'
 import { Formulario } from './componentes/Formulario'
+import { Certificar } from './componentes/Certificar'
+import { Validar } from './componentes/Validar'
 
 const queryClient = new QueryClient()
 createRoot(document.getElementById('root')).render(
@@ -20,6 +22,8 @@ createRoot(document.getElementById('root')).render(
             <Route path="/productos" element={<Producto></Producto>} />
             <Route path="/balance" element={<Balance></Balance>} />
             <Route path="/Formulario" element={<Formulario></Formulario>} />
+            <Route path="/certificar" element={<Certificar></Certificar>} />
+            <Route path="/validar" element={<Validar></Validar>} />
          </Route>
       </Routes>
     </BrowserRouter>

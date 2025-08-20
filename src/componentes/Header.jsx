@@ -15,6 +15,12 @@ export function Header() {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/balance">Balance ETH</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/certificar">Certificar</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/validar">Validar</Link>
+        </li>
 
       </ul>
     </div>
