@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Base de Datos y Servidor
+
+**Importante:** Debes descomprimir el archivo `my-bdd-server-master.zip`, ese server con axios se usa para que lea los datos de los productos de la base de datos northwind que puedes localizar como demo en github.
